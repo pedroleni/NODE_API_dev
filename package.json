@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mistymidnights/api_concert.git"
+    "url": "git+https://github.com/pedroleni/dev_api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mistymidnights/api_concert/issues"
+    "url": "https://github.com/pedroleni/dev_api/issues"
   },
-  "homepage": "https://github.com/mistymidnights/api_concert#readme",
+  "homepage": "https://github.com/pedroleni/dev_api#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cloudinary": "^1.30.1",
