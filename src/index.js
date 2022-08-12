@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require('cors');
 const UserRoutes = require('./api/user/user.routes');
-const ConcertRoutes = require('./api/concerts/concert.routes');
+const ToolRoutes = require('./api/tools/tool.routes');
 
 const { connectDb } = require('./helpers/db');
 const { setUpCloudinary } = require("./helpers/cloudinary");
@@ -40,7 +40,7 @@ app.use(express.urlencoded({ limit: '1mb', extended: true }));
 // Routes
 
 app.use('/api/v1/user', UserRoutes);
-app.use('/api/v1/concert', ConcertRoutes );
+app.use('/api/v1/tool', ToolRoutes );
 
 // Error handler
 app.use((error, _req, res, _next) => {
